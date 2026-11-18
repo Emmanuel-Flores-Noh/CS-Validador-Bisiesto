@@ -1,8 +1,0 @@
-flowchart LR
-    A([esBisiesto año]) --> B{año % 400 == 0?}
-    B -- sí --> T([true])
-    B -- no --> C{año % 100 == 0?}
-    C -- sí --> F([false])
-    C -- no --> D{año % 4 == 0?}
-    D -- sí --> T2([true])
-    D -- no --> F2([false])
